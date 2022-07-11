@@ -13,7 +13,9 @@ public class FirstApplication {
 	@GetMapping
 	public List<String> helloWorld()
 	{
-		return List.of("Hello ", "man! ");
+
+		return List.of("Hello ", "guys! ");
+
 	}
 
 	public static void main(String[] args) {
