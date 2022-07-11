@@ -13,7 +13,7 @@ public class FirstApplication {
 	@GetMapping
 	public List<String> helloWorld()
 	{
-		return List.of("Hello ", "world! ");
+		return List.of("Hello ", "man! ");
 	}
 
 	public static void main(String[] args) {
